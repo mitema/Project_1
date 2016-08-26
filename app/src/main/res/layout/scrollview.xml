@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.project_1.TestActivity"
+        android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mrelative">
+
+                <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/abc_action_bar_default_height_material"
+                    android:id="@+id/textView"
+                    android:background="#009688" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="left|center_vertical"
+                    android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+                    android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textView2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignTop="@+id/imageView"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_alignStart="@+id/textView2" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yes"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:id="@+id/textView4"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_alignStart="@+id/textView3" />
+
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:background="#009688"
+                    android:text ="MARK AS \n FAVOURITE"
+                    android:textSize="10dp"
+                    android:editable="false"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignLeft="@+id/textView4"
+                    android:layout_alignStart="@+id/textView4" />
+    </RelativeLayout>
+
+
+  <!--  <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:layout_below="@+id/mrelative"
+     /> !-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView6"
+            />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

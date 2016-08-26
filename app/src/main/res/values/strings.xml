@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project_1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sort">Sort</string>
+    <string name="pref_sort_popular">Popular</string>
+    <string name="pref_sort_key">Sort</string>
+    <string name="pref_sort_high_rating">Highest Rating</string>
+    <string name="pref_high_rating">Highest_Rating</string>
+    <string name="pref_popular">popular</string>
+    <string name="pref_sort_label">Sort</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>
